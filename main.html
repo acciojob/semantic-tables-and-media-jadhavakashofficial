@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Semantic Tables and Media</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h2>Student Roll Numbers and Names</h2>
-
-  <table border="1">
+  <!-- Semantic Table -->
+  <table>
     <thead>
       <tr>
         <th>Roll Number</th>
@@ -19,27 +19,29 @@
     <tbody>
       <tr>
         <td>101</td>
-        <td>Alice</td>
+        <td>John Doe</td>
       </tr>
       <tr>
         <td>102</td>
-        <td>Bob</td>
+        <td>Jane Smith</td>
       </tr>
       <tr>
         <td>103</td>
-        <td>Charlie</td>
+        <td>Michael Brown</td>
       </tr>
     </tbody>
   </table>
 
+  <!-- Heading between table and ordered list -->
   <h2>List of medias</h2>
 
+  <!-- Ordered List with Media Items -->
   <ol>
     <li>
-      <img src="https://picsum.photos/id/123/200/300" alt="Random image">
+      <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
     </li>
     <li>
-      <video width="320" height="240" controls>
+      <video controls>
         <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -47,7 +49,7 @@
     <li>
       <audio controls>
         <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-        Your browser does not support the audio element.
+        Your browser does not support the audio tag.
       </audio>
     </li>
   </ol>

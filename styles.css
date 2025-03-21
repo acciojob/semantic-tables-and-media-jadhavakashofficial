@@ -1,32 +1,38 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
 table {
   width: 50%;
   border-collapse: collapse;
   margin-bottom: 20px;
+  background-color: #fff;
 }
 
 th, td {
+  border: 1px solid #ccc;
   padding: 10px;
-  text-align: center;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
 }
 
 h2 {
   margin-top: 20px;
+  color: #333;
 }
 
 ol {
   list-style-type: decimal;
+  padding-left: 20px;
 }
 
-img {
+img, video, audio {
   display: block;
-  margin: 10px 0;
-}
-
-video, audio {
-  display: block;
-  margin: 10px 0;
+  margin-top: 10px;
+  max-width: 100%;
 }
